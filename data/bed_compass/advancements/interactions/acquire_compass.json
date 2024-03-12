@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:compass"
+		},
+		"title": "Acquire Compass",
+		"description": ""
+	},
+	"parent": "bed_compass:interactions",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [],
+				"items": [
+					{
+						"items": [
+							"minecraft:compass"
+						],
+						"nbt": "BedCompass:1b"
+					}
+				]
+			}
+		}
+	}
+}

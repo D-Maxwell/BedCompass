@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:debug_stick"
+		},
+		"title": "Interactions",
+		"description": "",
+		"background": "minecraft:textures/block/bedrock.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
